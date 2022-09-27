@@ -1,0 +1,105 @@
+*{
+    margin: 0 ; padding: 0;
+}
+
+body{
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header{
+
+    width: 100%;
+    height: 100px;
+    padding: 0;
+    background-color: #61c5e9;
+    display: table;
+}
+header h1{
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    margin: auto;
+}
+
+
+.faixa{display: flex; justify-content: space-between; align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(219, 150, 150);
+}
+.faixa ul{
+    list-style: none;
+    padding: 0;
+    margin: 0 ;
+   
+}
+.faixa ul li{display: inline;
+}
+.faixa ul li a{
+    padding: 20px;
+    text-decoration: none;
+    color: #bb00ff;
+    display: inline-block;
+    transition: 2s;
+}
+.faixa ul li a:hover{
+    background-color: #c6d7fc;
+}
+.comentario{
+    text-align: right;
+    padding-left: 100px;
+}
+
+
+
+.menu{
+    width: 100%;
+    height: 100px;
+}
+.menu ul{
+    list-style: none;
+    padding: 0;
+    margin: 0 ;
+    background-color: rgb(204,239,245);
+}
+.menu ul li{display: inline;
+}
+.menu ul li a{
+    padding: 20px;
+    text-decoration: none;
+    color: #c140f0;
+    display: inline-block;
+    transition: 2s;
+}
+.menu ul li a:hover{
+    background-color: #c6d7fc;
+}
+
+.div-conteudo{
+    width: 70%;
+    /* margin-left: 15%;
+    margin-bottom: 5%;
+    padding: 5%; */
+    text-align: center;
+}
+footer{
+    width: 100%;
+    height: 130px;
+    background-color: #58c8f0;
+    position: absolute;
+    bottom: 0;
+}
+footer p{
+    text-align: center;
+}
+.conteudocursos{
+
+display:flex;
+width: 70%;
+margin-left: 15%;
+margin-bottom: 5%;
+padding: 5%;
+text-align: left;
+
+}
